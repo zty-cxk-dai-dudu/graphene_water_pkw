@@ -1,9 +1,9 @@
-# Graphene water DeePMD models and data
+# Graphene water DNN models and datasets
 
-| System | Model | Training set | Validation set |
+| System | DNN model | Training set | Validation set |
 | --- | --- | --- | --- |
-| 1L | `models/1L_200k/model.pb` | `models/1L_200k/training_data/` | `models/1L_200k/validation_data/` |
-| 2L | `models/2L_300k/model.pb` | `models/2L_300k/training_data/` | `models/2L_300k/validation_data/` |
-| 4L | `models/4L_500k/model.pb` | `models/4L_500k/training_data/` | `models/4L_500k/validation_data/` |
+| Single layer | `models/single_layer/model.pb` | `models/single_layer/training_data/` | `models/single_layer/validation_data/` |
+| Double layer | `models/double_layer/model.pb` | `models/double_layer/training_data/` | `models/double_layer/validation_data/` |
+| Multilayer | `models/multilayer/model.pb` | `models/multilayer/training_data/` | `models/multilayer/validation_data/` |
 
-The model weights and DeePMD training/validation arrays were uploaded directly from zty. Binary files use Git LFS.
+Binary model and dataset files use Git LFS.
