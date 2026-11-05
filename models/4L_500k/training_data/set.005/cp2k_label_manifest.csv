@@ -1,0 +1,6 @@
+job,source_step,source_time_ps,selection_reason,max_devi_f_eVA,temperature_K,min_pair_dist_A,closest_pair,min_C_C_dist_A,closest_C_C_pair,min_allowed_pair_dist_A,cp2k_md_steps,cp2k_timestep_fs,cell_A,natoms
+frame_01_step_0002800,2800,0.70000,late-instability onset and first heating,0.92485480,849.72240,0.918860,551:O-552:H,1.352713,146:C-186:C,0.70,200,1.0,9.8200x17.0217x55.2698,616
+frame_02_step_0003600,3600,0.90000,intermediate graphene/water structural deformation,0.55973810,758.31840,0.947193,515:O-517:H,1.381955,245:C-253:C,0.70,200,1.0,9.8200x17.0217x55.2698,616
+frame_03_step_0004000,4000,1.00000,force-deviation escalation,2.48919000,904.91404,0.949124,611:O-613:H,1.204015,217:C-225:C,0.70,200,1.0,9.8200x17.0217x55.2698,616
+frame_04_step_0004400,4400,1.10000,maximum sampled temperature and force deviation,11.66368000,2331.92730,0.955967,545:O-547:H,0.982355,101:C-125:C,0.70,200,1.0,9.8200x17.0217x55.2698,616
+frame_05_step_0005440,5440,1.36000,last complete late-unstable trajectory frame,9.01796000,,0.962816,590:O-591:H,1.146749,101:C-125:C,0.70,200,1.0,9.8200x17.0217x55.2698,616

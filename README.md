@@ -1,28 +1,9 @@
-# Graphene-supported water: provenance and selected source tables
+# Graphene water DeePMD models and data
 
-This private repository is being assembled for the graphene-layer-dependent water proton-sharing and ionization study. It is a versioned record of source data, not yet a complete public reproducibility release.
+| System | Model | Training set | Validation set |
+| --- | --- | --- | --- |
+| 1L | `models/1L_200k/model.pb` | `models/1L_200k/training_data/` | `models/1L_200k/validation_data/` |
+| 2L | `models/2L_300k/model.pb` | `models/2L_300k/training_data/` | `models/2L_300k/validation_data/` |
+| 4L | `models/4L_500k/model.pb` | `models/4L_500k/training_data/` | `models/4L_500k/validation_data/` |
 
-## Included data
-
-`source_data/` contains four numerical CSV files copied without modification from the archived zty package `JACS_code_data_20260914_v23/graphene_water_code_data/source_data/derived/`:
-
-- `f3_sharing_populations_v17.csv`: proton-sharing population summary.
-- `f4_all_site_display_v17.csv`: site-resolved pKw display values.
-- `f4_basin_means.csv`: free-energy basin means.
-- `f4_acceptor_contrasts.csv`: acceptor contrast values.
-
-These are **archived v23 results**. That package describes classical C1/C2 windows of 600–1000 ps and C4 and quantum windows of 100–500 ps. Later manuscript edits state 600–1000 ps for all conditions. The CSVs have not been recalculated for those later window choices and must not be described as current-window results.
-
-`training_inputs/` holds three historical DeePMD input JSON files copied from zty for the 1L 200k, 2L 300k and 4L 500k models. Their relative data paths are retained as recorded; the underlying training arrays are not included yet.
-
-## JACS reference and scope
-
-Dasgupta, Saha and Paesani, JACS 2025, DOI: 10.1021/jacs.5c08273, released a frozen potential and the complete DeePMD training and validation sets at [their data repository](https://github.com/paesanilab/Data_Repository/tree/main/DC-r2SCAN_water_autoionization_nanoconfinement). Their release is the target organization for a future complete release here.
-
-The dataset inventory in `MODEL_DATA_INVENTORY.md` and checksums in `MODEL_HASHES.json` refer to multiple historical zty training campaigns. The final models used for the revised manuscript still require an exact model-to-calculation mapping before frozen weights or training/validation arrays can be published as the definitive set. In particular, the inspected 1L 200k model uses a BLYP-D3 reference, while the inspected 2L 300k and 4L 500k models use PBE-D3(BJ); these cannot be represented as a single uniform DFT training set.
-
-The repository remains private while provenance, final model identity, and data-window consistency are resolved.
-
-## Direct zty upload
-
-`archive/v23/Graphene_Water_Code_Data_v23.zip` was copied from the zty server and pushed from zty using this repository's dedicated deploy key. Large files are stored with Git LFS. The archive is historical and does not resolve the final-model or production-window provenance checks above.
+The model weights and DeePMD training/validation arrays were uploaded directly from zty. Binary files use Git LFS.
