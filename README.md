@@ -13,6 +13,8 @@ This private repository is being assembled for the graphene-layer-dependent wate
 
 These are **archived v23 results**. That package describes classical C1/C2 windows of 600–1000 ps and C4 and quantum windows of 100–500 ps. Later manuscript edits state 600–1000 ps for all conditions. The CSVs have not been recalculated for those later window choices and must not be described as current-window results.
 
+`training_inputs/` holds three historical DeePMD input JSON files copied from zty for the 1L 200k, 2L 300k and 4L 500k models. Their relative data paths are retained as recorded; the underlying training arrays are not included yet.
+
 ## JACS reference and scope
 
 Dasgupta, Saha and Paesani, JACS 2025, DOI: 10.1021/jacs.5c08273, released a frozen potential and the complete DeePMD training and validation sets at [their data repository](https://github.com/paesanilab/Data_Repository/tree/main/DC-r2SCAN_water_autoionization_nanoconfinement). Their release is the target organization for a future complete release here.
