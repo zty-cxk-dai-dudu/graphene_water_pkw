@@ -1,0 +1,7 @@
+id,ionic_minus_neutral_acceptor_coordination,definition
+L1O278_C,0.9124433144017265,"Mean within ncov[1,1.1] minus mean within ncov[1.95,2.05]; original unsmoothed coarse probabilities."
+L2O193_C,1.5979923760038766,"Mean within ncov[1,1.1] minus mean within ncov[1.95,2.05]; original unsmoothed coarse probabilities."
+L4O377_C,0.9011349698397142,"Mean within ncov[1,1.1] minus mean within ncov[1.95,2.05]; original unsmoothed coarse probabilities."
+L1O278_Q,1.0575496709214822,"Mean within ncov[1,1.1] minus mean within ncov[1.95,2.05]; original unsmoothed coarse probabilities."
+L2O193_Q,0.8655094045977012,"Mean within ncov[1,1.1] minus mean within ncov[1.95,2.05]; original unsmoothed coarse probabilities."
+L4O377_Q,0.9381806878284844,"Mean within ncov[1,1.1] minus mean within ncov[1.95,2.05]; original unsmoothed coarse probabilities."
