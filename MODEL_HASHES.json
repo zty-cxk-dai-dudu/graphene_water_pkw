@@ -1,0 +1,50 @@
+{
+  "1L_200k": {
+    "model_sha256": "706d0c2b55ee942db99b8d40951e9c242e7a52c17b6192b2626fd58d34fb4640",
+    "input_sha256": "3cc853a63be886719652d9bbfacf7f36c0a7f011b37b591192a98fec1caa3ea6",
+    "train_target_steps": 200000,
+    "mounted_training_frames": 1800,
+    "unique_training_geometry_hashes": 1800,
+    "source_model_basename": "graph-compress.pb",
+    "training_set_names": [
+      "training_data"
+    ],
+    "reference_note": "BLYP-D3 as used in historical nine-frame audit"
+  },
+  "2L_100k": {
+    "model_sha256": "4691054fd72ed1ab89a755ce45059c8b5514d9b54e4ba7878d6b19eb42118e5a",
+    "input_sha256": "615b20ae0e23e83424598cdb41ca023dc8b1b22da98970605b224e32621fcb95",
+    "train_target_steps": 100000,
+    "mounted_training_frames": 956,
+    "unique_training_geometry_hashes": 956,
+    "source_model_basename": "graph-compress.pb",
+    "training_set_names": [
+      "training_data"
+    ],
+    "reference_note": "PBE-D3(BJ) as used in historical nine-frame audit"
+  },
+  "2L_300k": {
+    "model_sha256": "f4e06b77ab680e7660dab2fd22a34f292bc50e9255e896bf794e52927a1457be",
+    "input_sha256": "453969c857d2ef759dd4d210702ae75b8628cdae8f8f971c5a4d8f69e9c66fa5",
+    "train_target_steps": 300000,
+    "mounted_training_frames": 5966,
+    "unique_training_geometry_hashes": 5966,
+    "source_model_basename": "graph-compress.pb",
+    "training_set_names": [
+      "training_data"
+    ],
+    "reference_note": "PBE-D3(BJ) as used in historical nine-frame audit"
+  },
+  "4L_500k": {
+    "model_sha256": "8078e9c684ec793dcf5bfe4112f7adf18ef3c8a27bc372c390be7f4968380bfc",
+    "input_sha256": "2cd3ae65525ef31b5b5840f9551107e8d79da58f7c05243b06cada536957cb4f",
+    "train_target_steps": 500000,
+    "mounted_training_frames": 42516,
+    "unique_training_geometry_hashes": 12654,
+    "source_model_basename": "graph-500k-compress.pb",
+    "training_set_names": [
+      "training_data"
+    ],
+    "reference_note": "PBE-D3(BJ) as used in historical nine-frame audit"
+  }
+}
