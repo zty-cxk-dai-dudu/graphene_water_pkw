@@ -22,3 +22,7 @@ Dasgupta, Saha and Paesani, JACS 2025, DOI: 10.1021/jacs.5c08273, released a fro
 The dataset inventory in `MODEL_DATA_INVENTORY.md` and checksums in `MODEL_HASHES.json` refer to multiple historical zty training campaigns. The final models used for the revised manuscript still require an exact model-to-calculation mapping before frozen weights or training/validation arrays can be published as the definitive set. In particular, the inspected 1L 200k model uses a BLYP-D3 reference, while the inspected 2L 300k and 4L 500k models use PBE-D3(BJ); these cannot be represented as a single uniform DFT training set.
 
 The repository remains private while provenance, final model identity, and data-window consistency are resolved.
+
+## Direct zty upload
+
+`archive/v23/Graphene_Water_Code_Data_v23.zip` was copied from the zty server and pushed from zty using this repository's dedicated deploy key. Large files are stored with Git LFS. The archive is historical and does not resolve the final-model or production-window provenance checks above.
